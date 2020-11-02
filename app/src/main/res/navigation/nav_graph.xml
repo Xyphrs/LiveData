@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/animalFragment">
+
+    <fragment
+        android:id="@+id/animalFragment"
+        android:name="com.example.livedatapractica.AnimalFragment"
+        android:label="fragment_animal"
+        tools:layout="@layout/fragment_animal" />
+</navigation>
